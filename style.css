@@ -1,20 +1,78 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgba(205, 243, 243, 0.897);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-left:-8px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: rgb(44, 41, 41);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: antiquewhite;
+    color: black;
+  }
+  
+.container {
+    background-color:rgba(205, 243, 243, 0.897);
+    width: 500px;
+    margin: 100px auto;
+    padding-top: 12px;
+    padding-bottom:12px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+body {
+    background-color:rgb(44, 41, 41);
+    font-family: Proxima Nova;
+}
 h1 {
     text-align:center;
-    background-color:peachpuff;
-    font-weight:bolder;  
+    background-color:antiquewhite;
+    font-weight:bolder; 
+    width:400px;
+    margin: 16px auto;
+    padding: 20px; 
 }
 p {
     text-align:center;
 }
 .intro {
-    font-size:xx-large;
+    font-size:x-large;
     text-align:center;
     font-weight:bolder;
+    margin-top:-7px;
+}
+.alttext {
+    margin-top:4px;
+    text-align:center;
+    font-style:italic;
+}
+.pic {
+    margin: 20px;
+    text-align:center;
+    
 }
 h3 {
     text-align:center;
 }
+
 .list {
-    text-align:center;
+    background-color:antiquewhite;
     font-size:large;
+    text-align:center;
+    width: 300px;
+    padding: 16px;
+    margin: 16px auto;
 }
